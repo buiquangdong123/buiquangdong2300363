@@ -1,0 +1,38 @@
+Câu 2
+
+groupadd hocvien
+groupadd admin
+
+useradd -m -g hocvien hv1
+useradd -m -g hocvien hv2
+useradd -m -g hocvien hv3
+
+useradd -m -g admin admin1
+useradd -m -g admin admin2
+
+echo "hv1:1234567" | chpasswd
+echo "hv2:1234567" | chpasswd
+echo "hv3:1234567" | chpasswd
+echo "admin1:1234567" | chpasswd
+echo "admin2:1234567" | chpasswd
+
+Câu 3
+
+usermod -c "Nguoi dung quan tri he thong" admin1
+usermod -c "Nguoi dung quan tri he thong" admin2
+
+Câu 9
+
+umask 027
+touch baitap.txt
+mkdir baitap
+
+Câu 10
+
+top
+ps -u hv1
+ps -u admin1
+du -sh /home/*
+id hv1
+who
+w
