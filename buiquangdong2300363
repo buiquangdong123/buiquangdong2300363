@@ -10,11 +10,11 @@ useradd -m -g hocvien hv3
 useradd -m -g admin admin1
 useradd -m -g admin admin2
 
-echo "hv1:1234567" | chpasswd
-echo "hv2:1234567" | chpasswd
-echo "hv3:1234567" | chpasswd
-echo "admin1:1234567" | chpasswd
-echo "admin2:1234567" | chpasswd
+echo "hv1:123456" | chpasswd
+echo "hv2:123456" | chpasswd
+echo "hv3:123456" | chpasswd
+echo "admin1:123456" | chpasswd
+echo "admin2:123456" | chpasswd
 
 Câu 3
 
