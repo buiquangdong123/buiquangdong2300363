@@ -16,5 +16,5 @@ câu 10:
 
 <img width="947" height="377" alt="image" src="https://github.com/user-attachments/assets/d844f8d8-1075-4b25-94d4-f7da868906d8" />
 
-
+NHỮNG CÂU KHÁC MÁY EM KHÔNG HỖ TRỢ Ạ
 
